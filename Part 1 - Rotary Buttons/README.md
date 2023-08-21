@@ -19,7 +19,7 @@ This part covers the assembly of the Rotary Button with Push Pull function.
 [Finished assembly](./Images/)
 
 ## Electronic Shematic
-[Backlight Shematic](./Electronics/Backlight_shematic.png)
+[Backlight Shematic](./Electronics/Backlight_shematic.png)  
 [Example Shematic](./Electronics/Example-shematic.png)
 
 ## Assembly
