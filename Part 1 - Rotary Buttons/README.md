@@ -12,8 +12,8 @@ This part covers the assembly of the Rotary Button with Push Pull function.
 - Rapid glue
 
 ## Vorschau
-![Preview](/Images/Preview.png)
-[Finished assembly](/Images/)
+![Preview](./Images/Preview.png)
+[Finished assembly](./Images/)
 
 ## Assembly
 It is recommended to assemble 1 knob first as a test. And then learn from your mistakes.
