@@ -40,21 +40,20 @@ If everything is done correctly, you can turn the knob and feel the steps of the
 ## Electrical assembly
 All parts are connected to GND. This means that the middle pin of the encoder has to be connected to GND and the pushbuttons also all need GND. The push buttons have to be connected in parallel. So the push buttons for push together and the push buttons for pull together.
 
-Pin Arduino | Description
----------------------------
-22	        | Altitude left
-23	        | Altitude right
-24	        | Push Altitude
-25	        | Pull Altitude
-26	        | Speed left
-27	        | Speed right
-28	        | Push Speed
-29	        | Pull Speed
-30	        | VS left
-31	        | VS right
-32	        | Push VS
-33	        | Pull VS
-34	        | HDG left
-35	        | HDG right
-36	        | Push HDG
-37	        | Pull HDG
+Pin Arduino | Description  
+22	        | Altitude left  
+23	        | Altitude right  
+24	        | Push Altitude  
+25	        | Pull Altitude  
+26	        | Speed left  
+27	        | Speed right  
+28	        | Push Speed  
+29	        | Pull Speed  
+30	        | VS left  
+31	        | VS right  
+32	        | Push VS  
+33	        | Pull VS  
+34	        | HDG left  
+35	        | HDG right  
+36	        | Push HDG  
+37	        | Pull HDG  
