@@ -22,4 +22,4 @@ The project is divided into 2 parts.
 - Mobiflight
 
 ## TODO
-[ ] Finish Part 2 :tada:
+- [ ] Finish Part 2 :tada:
