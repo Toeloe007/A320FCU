@@ -10,8 +10,8 @@ This part covers the assembly of the Rotary Button with Push Pull function.
 - 12x [Warm White LED 3x3mm Flat Top](https://de.aliexpress.com/item/32757762886.html?spm=a2g0o.cart.0.0.230b4ae42b9wfW&mp=1&gatewayAdapt=glo2deu)
 - Wiring Material
 - Rapid glue
-- [Power Module] (https://de.aliexpress.com/item/4000532944497.html?spm=a2g0o.order_list.order_list_main.23.47315c5fKPsirB&gatewayAdapt=glo2deu) for Backlight and 7 Segment display 5V-5W
-- [Power Plug with Switch] (https://de.aliexpress.com/item/1005002288319626.html?spm=a2g0o.order_list.order_list_main.41.18755c5fF1WiGX&gatewayAdapt=glo2deu) for Power Module
+- [Power Module](https://de.aliexpress.com/item/4000532944497.html?spm=a2g0o.order_list.order_list_main.23.47315c5fKPsirB&gatewayAdapt=glo2deu) for Backlight and 7 Segment display 5V-5W
+- [Power Plug with Switch](https://de.aliexpress.com/item/1005002288319626.html?spm=a2g0o.order_list.order_list_main.41.18755c5fF1WiGX&gatewayAdapt=glo2deu) for Power Module
 - 12x 220 Ohm resistor for LED lighting
 
 ## Preview
