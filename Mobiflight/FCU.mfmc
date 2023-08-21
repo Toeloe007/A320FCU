@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ModuleName>FCU</ModuleName>
+  <PowerSavingTime>600</PowerSavingTime>
+  <Encoder Name="Alt" PinLeft="23" PinRight="22" EncoderType="0" />
+  <Encoder Name="Speed" PinLeft="27" PinRight="26" EncoderType="0" />
+  <Encoder Name="VS" PinLeft="31" PinRight="30" EncoderType="0" />
+  <Encoder Name="HDG" PinLeft="35" PinRight="34" EncoderType="0" />
+  <Button Name="Push Alt" Pin="24" />
+  <Button Name="Pull Alt" Pin="25" />
+  <Button Name="Push Speed" Pin="28" />
+  <Button Name="Pull Speed" Pin="29" />
+  <Button Name="Push VS" Pin="32" />
+  <Button Name="Pull VS" Pin="33" />
+  <Button Name="Push HDG" Pin="36" />
+  <Button Name="Pull HDG" Pin="37" />
+  <Button Name="AP1" Pin="38" />
+  <Button Name="AP2" Pin="40" />
+  <Button Name="LOC" Pin="42" />
+  <Button Name="ATHR" Pin="21" />
+  <Button Name="EXPED" Pin="46" />
+  <Button Name="1000" Pin="48" />
+  <Button Name="APPR" Pin="50" />
+  <Output Name="LED AP1" Pin="39" />
+  <Output Name="LED AP2" Pin="41" />
+  <Output Name="LED LOC" Pin="43" />
+  <Output Name="LED ATHR" Pin="59" />
+  <Output Name="LED EXPED" Pin="47" />
+  <Output Name="LED 1000" Pin="49" />
+  <Output Name="LED APPR" Pin="51" />
+  <LedModule Name="LedModule" DinPin="12" ClsPin="13" ClkPin="14" Brightness="15" NumModules="2" />
+  <Button Name="SPD MACH" Pin="52" />
+  <Button Name="HDG TRK" Pin="53" />
+  <Button Name="METRIC ALT" Pin="2" />
+  <Output Name="SPD LED" Pin="3" />
+  <Output Name="MACH LED" Pin="4" />
+  <Output Name="HDG LED" Pin="5" />
+  <Output Name="TRK LED" Pin="6" />
+  <Output Name="VS LED" Pin="7" />
+  <Output Name="FPA LED" Pin="8" />
+  <Output Name="SPD Managed" Pin="9" />
+  <Output Name="HDG Managed" Pin="10" />
+  <Output Name="Alt Managed" Pin="11" />
+</Config>

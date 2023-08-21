@@ -19,3 +19,7 @@ The project is divided into 2 parts.
 - Some knowledge about electricity
 - Arduino Mega
 - [Project Fenix Quartz](https://github.com/Fragtality/FenixQuartz)
+- Mobiflight
+
+## TODO
+[] Finish Part 2 :tada:

@@ -1,0 +1,776 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<MobiflightConnector>
+  <outputs>
+    <config guid="d6cae480-243d-45c1-9efb-48b94ee05276">
+      <active>false</active>
+      <description>LED LOC</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_LOC)" UUID="00a6946d-3947-403c-b794-82cf27a9735a" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED LOC" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="4c38c352-99bc-4fb8-9a71-773823a14328">
+      <active>false</active>
+      <description>LED AP1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_AP1)" UUID="fe498ce3-5f9c-487d-bdd3-234b7e1b1219" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED AP1" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="39d6583e-3f51-4742-b442-6d93dee1b394">
+      <active>false</active>
+      <description>LED AP2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_AP2)" UUID="5fa59c9e-5c44-446f-a280-e44857102d42" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED AP2" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6a47fd7e-464e-4ec5-aa9b-fdad91d9c059">
+      <active>false</active>
+      <description>LED ATHR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_ATHR)" UUID="2afcc2b4-6770-4826-8e08-11627a8ab646" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED ATHR" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="739acf31-254d-4c3d-88a4-add0c8654440">
+      <active>false</active>
+      <description>LED EXPED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_EXPED)" UUID="14bbde49-0e70-4fda-8735-aecc384af1f7" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED EXPED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2ef65b0b-780b-4c35-88b5-1f04aa21aa33">
+      <active>false</active>
+      <description>LED APPR</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_APPR)" UUID="c914f698-bf5c-4f9d-a9db-511c5031b0e9" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="LED APPR" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="47f6636e-eb77-4c98-a01d-cf41ef0cccc3">
+      <active>true</active>
+      <description>7Seg VS</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="True" expression="$/100" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="'+00'" elseValue="if($&lt;10 &amp;&amp; $&gt;0,'+0'+$,if($&gt;=-9 &amp;&amp; $&lt;0,'-0'+$*(-1),if($&lt;0,$,'+'+$)))" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="2,3,4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="847a22d3-b681-4a5e-b328-8f56242a337d" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+          <configref active="False" ref="4c38c352-99bc-4fb8-9a71-773823a14328" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f089898c-5914-463f-b407-d8e05158b4bb">
+      <active>true</active>
+      <description>7Seg VS oo</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="True" expression="'oo'" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="0" operand="!=" ifValue="'oo'" elseValue="$" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2,3,4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="847a22d3-b681-4a5e-b328-8f56242a337d" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="4afb46c0-81b6-4123-ae92-78df877e72ad">
+      <active>true</active>
+      <description>7Seg VS FPA</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="#" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="'+00'" elseValue="if($&gt;0,'+'+$,$)" />
+          <interpolation active="False">
+            <value x="0" y="0" />
+            <value x="1" y="1" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2,3,4" ledDecimalPoints="3" />
+        <preconditions>
+          <precondition type="config" active="true" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="847a22d3-b681-4a5e-b328-8f56242a337d" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+          <configref active="True" ref="847a22d3-b681-4a5e-b328-8f56242a337d" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="abfffbd0-508d-4854-bc69-3a8800682cdf">
+      <active>true</active>
+      <description>7Seg SPD</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5408" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="#" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="3,4,5" />
+        <preconditions>
+          <precondition type="config" active="true" ref="9e768889-bd65-44e1-8614-b59d38633bb9" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="65b23a54-0e04-4830-98fc-92d67746cf26" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="9e768889-bd65-44e1-8614-b59d38633bb9" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="155e5e7c-e0bb-4bca-997d-16d3a08fa8ac">
+      <active>true</active>
+      <description>7Seg MACH</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5408" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="'0'+$" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="100" operand="&lt;" ifValue="'0'+$" elseValue="$" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="3,4,5" ledDecimalPoints="5" />
+        <preconditions>
+          <precondition type="config" active="true" ref="9e768889-bd65-44e1-8614-b59d38633bb9" operand="=" value="0" logic="and" />
+          <precondition type="config" active="true" ref="65b23a54-0e04-4830-98fc-92d67746cf26" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="9e768889-bd65-44e1-8614-b59d38633bb9" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="d00e69a7-ec80-436e-a4a3-09d71386103a">
+      <active>true</active>
+      <description>7Seg HDG</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x540C" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="#" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="2,3,4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="f8b7135f-06ce-4a83-8ed5-e78c1421090b" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="f8b7135f-06ce-4a83-8ed5-e78c1421090b" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="a69acca1-6aea-49b3-8287-c6120acea37f">
+      <active>true</active>
+      <description>7Seg VS Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="&quot;-----&quot;" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="-----" elseValue="-----" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2,3,4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" operand="=" value="1" logic="and" />
+          <precondition type="config" active="true" ref="847a22d3-b681-4a5e-b328-8f56242a337d" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+          <configref active="True" ref="847a22d3-b681-4a5e-b328-8f56242a337d" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9bccbad1-3997-4d64-ae3c-0399ee241306">
+      <active>true</active>
+      <description>7Seg VS Dashed FPA</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="&quot;-----&quot;" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="-----" elseValue="-----" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="0,1,2,3,4" ledDecimalPoints="3" />
+        <preconditions>
+          <precondition type="config" active="true" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" operand="=" value="1" logic="and" />
+          <precondition type="config" active="true" ref="847a22d3-b681-4a5e-b328-8f56242a337d" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+          <configref active="True" ref="847a22d3-b681-4a5e-b328-8f56242a337d" placeholder="!" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="bf15c9a9-b401-4e53-ae55-9ca361f55248">
+      <active>true</active>
+      <description>7Seg SPD Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="&quot;-----&quot;" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="-----" elseValue="-----" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions>
+          <precondition type="config" active="true" ref="9e768889-bd65-44e1-8614-b59d38633bb9" operand="=" value="1" logic="and" />
+          <precondition type="config" active="true" ref="9ecdae9f-d1ab-4b92-a74d-8dd0946bd26a" operand="=" value="0" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="6ef0fb1d-e373-4ef9-8293-f37c465978ce">
+      <active>true</active>
+      <description>7Seg MACH Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="&quot;-----&quot;" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="-----" elseValue="-----" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions>
+          <precondition type="config" active="true" ref="9e768889-bd65-44e1-8614-b59d38633bb9" operand="=" value="1" logic="and" />
+          <precondition type="config" active="true" ref="9ecdae9f-d1ab-4b92-a74d-8dd0946bd26a" operand="=" value="" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="82451f53-09e1-4733-b2fe-d83e9e1a0333" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="7ac128ad-7db9-4bde-8570-fde719a1b032">
+      <active>true</active>
+      <description>7Seg HDG Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5414" offsetType="Float" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="&quot;-----&quot;" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="-----" elseValue="-----" />
+          <interpolation active="True">
+            <value x="0" y="0" />
+            <value x="1024" y="1024" />
+          </interpolation>
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="2,3,4" />
+        <preconditions>
+          <precondition type="config" active="true" ref="f8b7135f-06ce-4a83-8ed5-e78c1421090b" operand="=" value="1" logic="and" />
+        </preconditions>
+        <configrefs>
+          <configref active="True" ref="f8b7135f-06ce-4a83-8ed5-e78c1421090b" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="96033df9-e75c-48f2-8770-bc3d01172eeb">
+      <active>true</active>
+      <description>SPEED LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_MACH_MODE)" UUID="cf9c73a0-ab34-455b-866d-f47c09d19336" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="SPD LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="d6cae480-243d-45c1-9efb-48b94ee05276" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="0b185f55-cf0d-47cb-badb-d93672cef9a9">
+      <active>false</active>
+      <description>HDG VS LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_TRACK_FPA_MODE)" UUID="0c24f12b-0016-4da7-b941-587a581e5686" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="HDG LED|VS LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="d6cae480-243d-45c1-9efb-48b94ee05276" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="847a22d3-b681-4a5e-b328-8f56242a337d">
+      <active>true</active>
+      <description>TRK FPA LED</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_TRACK_FPA_MODE)" UUID="0c24f12b-0016-4da7-b941-587a581e5686" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="0" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="TRK LED|FPA LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="d6cae480-243d-45c1-9efb-48b94ee05276" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="82451f53-09e1-4733-b2fe-d83e9e1a0333">
+      <active>true</active>
+      <description>VS is Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5435" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="1" operand="=" ifValue="----" elseValue="0" />
+        </modifiers>
+        <display type="-" serial="FCU/ SN-67f-f8f" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="d6cae480-243d-45c1-9efb-48b94ee05276" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="9e768889-bd65-44e1-8614-b59d38633bb9">
+      <active>false</active>
+      <description>SPD is Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5433" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="1" operand="=" ifValue="----" elseValue="0" />
+        </modifiers>
+        <display type="-" serial="FCU/ SN-67f-f8f" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs>
+          <configref active="False" ref="d6cae480-243d-45c1-9efb-48b94ee05276" placeholder="#" />
+        </configrefs>
+      </settings>
+    </config>
+    <config guid="f8b7135f-06ce-4a83-8ed5-e78c1421090b">
+      <active>false</active>
+      <description>HDG is Dashed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5434" offsetType="Integer" size="1" mask="0x00FF" bcdMode="False" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="-" serial="FCU/ SN-67f-f8f" trigger="normal" pin="" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="103c95fd-5fc0-49cc-9a4a-dfdd365f80cb">
+      <active>true</active>
+      <description>7Seg Alt1</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5410" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="True" expression="$/1000" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="1" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="0,1" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="7ad3cf78-35c7-4c8e-a7f0-29b076ab2c17">
+      <active>true</active>
+      <description>7Seg Alt2</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="FSUIPC" offset="0x5410" offsetType="Integer" size="4" mask="0xFFFFFFFF" bcdMode="False" />
+        <modifiers>
+          <transformation active="True" expression="$%1000" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="0" operand="=" ifValue="'000'" elseValue="$" />
+        </modifiers>
+        <display type="Display Module" serial="FCU/ SN-67f-f8f" trigger="normal" ledAddress="LedModule" ledConnector="2" ledModuleSize="8" ledPadding="False" ledPaddingChar="0" ledDigits="5,6,7" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="1689ac1e-6c73-49cf-b67a-ca902454bdb9">
+      <active>false</active>
+      <description>SPD Managed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_SPEED_MANAGED)" UUID="28029cad-8379-419c-ba1f-589cada617fa" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="SPD Managed" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="2bc8fb02-0f06-431c-b81d-e957ae140898">
+      <active>false</active>
+      <description>HDG Managed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_SPEED_MANAGED)" UUID="28029cad-8379-419c-ba1f-589cada617fa" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="True" value="" operand="=" ifValue="1" elseValue="0" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="HDG Managed" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="63b206d3-7e80-4a4e-bb65-c4d390d6ec83">
+      <active>false</active>
+      <description>Alt Managed</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_ALTITUDE_MANAGED)" UUID="bca70365-cd7c-4408-ad8e-4d7c5f578166" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="Alt Managed" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="65b23a54-0e04-4830-98fc-92d67746cf26">
+      <active>true</active>
+      <description>Mach LEd</description>
+      <settings msdata:InstanceType="MobiFlight.OutputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <source type="SimConnect" VarType="CODE" Value="(L:I_FCU_MACH_MODE)" UUID="cf9c73a0-ab34-455b-866d-f47c09d19336" />
+        <modifiers>
+          <transformation active="False" expression="$" substrStart="0" substrEnd="7" />
+          <comparison active="False" value="" operand="" ifValue="" elseValue="" />
+        </modifiers>
+        <display type="Output" serial="FCU/ SN-67f-f8f" trigger="normal" pin="MACH LED" pinBrightness="255" />
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </outputs>
+  <inputs>
+    <config guid="7ca8d684-5914-40ee-9dc1-4de7d1648bc7">
+      <active>true</active>
+      <description>Altitude</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Alt" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(L:E_FCU_ALTITUDE) -- (&gt;L:E_FCU_ALTITUDE)" presetId="e83c6d89-81f4-4ed6-8e0c-6bb95d46521b" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(L:E_FCU_ALTITUDE) ++ (&gt;L:E_FCU_ALTITUDE)" presetId="c792e16a-4a32-40c2-8ba8-d5802a28760e" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6a2daafa-6316-4e56-a33d-589ef3333b5e">
+      <active>true</active>
+      <description>Heading</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="HDG" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(L:E_FCU_HEADING) -- (&gt;L:E_FCU_HEADING)" presetId="07bdaabc-80fb-4182-85cf-d932fe9e6c88" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(L:E_FCU_HEADING) ++ (&gt;L:E_FCU_HEADING)" presetId="0dd864dd-74ca-4012-b7e9-181756d4e2ce" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="3090a352-9351-4cc7-a019-c1f782772796">
+      <active>true</active>
+      <description>Speed</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Speed" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(L:E_FCU_SPEED) -- (&gt;L:E_FCU_SPEED)" presetId="9998b6fc-6a19-46b0-a2c7-0071f70c3e1f" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(L:E_FCU_SPEED) ++ (&gt;L:E_FCU_SPEED)" presetId="87f04f23-c3d9-4af5-9095-54ad8342192f" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="cbab5303-da01-4c49-952f-dadc973ac484">
+      <active>true</active>
+      <description>VS</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="VS" type="Encoder" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <encoder>
+          <onLeft type="MSFS2020CustomInputAction" command="(L:E_FCU_VS) -- (&gt;L:E_FCU_VS)" presetId="0eda9b7a-487c-4d77-8370-93f3dd236007" />
+          <onLeftFast />
+          <onRight type="MSFS2020CustomInputAction" command="(L:E_FCU_VS) ++ (&gt;L:E_FCU_VS)" presetId="219fa6ca-32fa-4f39-97b3-553fddc5a36e" />
+          <onRightFast />
+        </encoder>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8fc85a71-ac8b-4081-809e-005695d6f388">
+      <active>false</active>
+      <description>Push Alt</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Push Alt" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_ALTITUDE) -- (&gt;L:S_FCU_ALTITUDE)" presetId="7d4f6201-b793-4bfa-baa0-cd748d2f3c01" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="c9adaafe-f778-40a5-a771-0c119fcf6c65">
+      <active>false</active>
+      <description>Pull Alt</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Pull Alt" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_HEADING) ++ (&gt;L:S_FCU_HEADING)" presetId="d2435805-fc79-4be5-9c2c-6dca31cecac4" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="84982410-4425-45a0-9667-2327bfbe25cf">
+      <active>false</active>
+      <description>HDG Push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Push HDG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_HEADING) -- (&gt;L:S_FCU_HEADING)" presetId="3f3d0eee-bcc6-4574-9836-35c3575534f6" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="180349ad-ce9e-4328-b4b6-d9792cbf1045">
+      <active>false</active>
+      <description>HDG Pull</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Pull HDG" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_HEADING) ++ (&gt;L:S_FCU_HEADING)" presetId="d2435805-fc79-4be5-9c2c-6dca31cecac4" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="75c184fa-ea12-412c-8594-c803e6f395a9">
+      <active>false</active>
+      <description>Speed Pull</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Pull Speed" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_SPEED) ++ (&gt;L:S_FCU_SPEED)" presetId="4069b97d-e257-4638-8b6d-eb25b43ce09a" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0e220605-5b55-4552-b70e-ce1e89aec124">
+      <active>false</active>
+      <description>Speed Push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Push Speed" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_SPEED) -- (&gt;L:S_FCU_SPEED)" presetId="b881c745-f6ae-4f34-8d34-cf04bd6b7700" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="43c2438e-ca3d-4a36-b97f-ed62e4d35c1a">
+      <active>true</active>
+      <description>VS Pull</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Pull VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_VERTICAL_SPEED) ++ (&gt;L:S_FCU_VERTICAL_SPEED)" presetId="cbbd7140-de3b-4920-8be8-e39a6cabe1bd" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8f7eb8dd-712f-4884-bcb4-370dff3695d9">
+      <active>true</active>
+      <description>VS Push</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="Push VS" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_VERTICAL_SPEED) -- (&gt;L:S_FCU_VERTICAL_SPEED)" presetId="0ef228fd-f370-449c-9bfa-3d2a67b2e92c" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="8adaf0bf-c4be-46c4-8dd1-ed5034250d55">
+      <active>false</active>
+      <description>LOC BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="LOC" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_LOC) ++ (&gt;L:S_FCU_LOC)" presetId="b031644f-0cb2-4d14-8e1b-ec027efff422" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="9d248937-6350-479b-88fa-811b8ecd0f0b">
+      <active>false</active>
+      <description>AP1 BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="AP1" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_AP1) ++ (&gt;L:S_FCU_AP1)" presetId="2e62a568-081c-4a58-af37-0e867d17f2c2" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="625b0c41-88e3-4fea-beb9-87634c9f1b54">
+      <active>false</active>
+      <description>AP2 BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="AP2" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_AP2) ++ (&gt;L:S_FCU_AP2)" presetId="48936111-653b-453f-9db4-c395a65a2d19" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="46cc102a-5f0e-4ef1-ad85-71f5cdfd4abe">
+      <active>false</active>
+      <description>ATHR BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="ATHR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_ATHR) ++ (&gt;L:S_FCU_ATHR)" presetId="fabd2612-1e49-4728-9882-3a8dd352ed7f" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="6caf1540-f3b6-4749-9efa-c49a3ad5c3f5">
+      <active>false</active>
+      <description>EXPED BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="EXPED" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_EXPED) ++ (&gt;L:S_FCU_EXPED)" presetId="f72a8782-2c6c-4b60-89d6-0b9e83e93c07" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="11365046-eaf6-4038-806c-43c323a221b1">
+      <active>false</active>
+      <description>1000 BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="1000" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_ALTITUDE_SCALE, Bool) if{ 0 (&gt;L:S_FCU_ALTITUDE_SCALE) } els{ 1 (&gt;L:S_FCU_ALTITUDE_SCALE) }" presetId="fb5f941f-dfed-4e50-b974-4d6966e93877" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="27599d43-3dbf-40dd-a300-d7b717967d05">
+      <active>false</active>
+      <description>APPR BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="APPR" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_APPR) ++ (&gt;L:S_FCU_APPR)" presetId="515ac50d-03d7-4ea6-8172-eaf81f6c8745" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="eccd02c9-3165-448b-ab69-0332d71f08be">
+      <active>false</active>
+      <description>SPD MACH BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="SPD MACH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_SPD_MACH) ++ (&gt;L:S_FCU_SPD_MACH)" presetId="d36af5d0-7ba9-4208-9940-2e9706d77c7f" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="efb12c32-773d-48ab-9ed7-0ad251068656">
+      <active>false</active>
+      <description>HDG TRK BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="SPD MACH" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_HDGVS_TRKFPA) ++ (&gt;L:S_FCU_HDGVS_TRKFPA)" presetId="601d3171-145f-4326-8318-22dbc89f2b38" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+    <config guid="0f9ed22d-f875-431d-9206-4ba7a02661f5">
+      <active>false</active>
+      <description>MET ALT BTN</description>
+      <settings msdata:InstanceType="MobiFlight.InputConfigItem, MFConnector, Version=9.7.1.0, Culture=neutral, PublicKeyToken=null" serial="FCU/ SN-67f-f8f" name="METRIC ALT" type="Button" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+        <button>
+          <onPress type="MSFS2020CustomInputAction" command="(L:S_FCU_METRIC_ALT) ++ (&gt;L:S_FCU_METRIC_ALT)" presetId="7babb3ad-c213-498a-97e1-e1b8148a98dc" />
+          <onRelease />
+        </button>
+        <preconditions />
+        <configrefs />
+      </settings>
+    </config>
+  </inputs>
+</MobiflightConnector>
