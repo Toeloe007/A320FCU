@@ -10,10 +10,17 @@ This part covers the assembly of the Rotary Button with Push Pull function.
 - 12x [Warm White LED 3x3mm Flat Top](https://de.aliexpress.com/item/32757762886.html?spm=a2g0o.cart.0.0.230b4ae42b9wfW&mp=1&gatewayAdapt=glo2deu)
 - Wiring Material
 - Rapid glue
+- [Power Module] (https://de.aliexpress.com/item/4000532944497.html?spm=a2g0o.order_list.order_list_main.23.47315c5fKPsirB&gatewayAdapt=glo2deu) for Backlight and 7 Segment display 5V-5W
+- [Power Plug with Switch] (https://de.aliexpress.com/item/1005002288319626.html?spm=a2g0o.order_list.order_list_main.41.18755c5fF1WiGX&gatewayAdapt=glo2deu) for Power Module
+- 12x 220 Ohm resistor for LED lighting
 
-## Vorschau
+## Preview
 ![Preview](./Images/Preview.png)
 [Finished assembly](./Images/)
+
+## Electronic Shematic
+[Backlight Shematic](./Electronics/Backlight_shematic.png)
+[Example Shematic](./Electronics/Example-shematic.png)
 
 ## Assembly
 It is recommended to assemble 1 knob first as a test. And then learn from your mistakes.
@@ -57,3 +64,10 @@ Pin Arduino | Description
 35	        | HDG right  
 36	        | Push HDG  
 37	        | Pull HDG  
+
+### Backlight
+Since I don't want to load my USB ports unnecessarily, I decided to power the backlight and the 7 segment displays via an external power supply.
+The GND pin of the power module has to be connected to the GND pin of the Arduino.
+
+The cathodes (-) of the LEDs can all be connected together and then connected to GND.
+Each LED needs a 220 Ohm resistor at the anode (+). Connect all resistors together on one side and put them on the 5V of the power module.
