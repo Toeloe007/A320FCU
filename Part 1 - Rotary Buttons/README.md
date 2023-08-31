@@ -2,7 +2,7 @@
 This part covers the assembly of the Rotary Button with Push Pull function.
 
 ## Parts needed
-- 16 [8x8 Non-Self-Locking Taster with Black Cap](https://de.aliexpress.com/item/4001159367703.html?spm=a2g0o.cart.0.0.5fbb4ae4lgbDyt&mp=1&gatewayAdapt=glo2deu)
+- 16 [8x8 Non-Self-Locking Button with Black Cap](https://de.aliexpress.com/item/4001159367703.html?spm=a2g0o.cart.0.0.5fbb4ae4lgbDyt&mp=1&gatewayAdapt=glo2deu)
 - Rubber mat 2mm
 - 6mm Brass Shaft approx 4x125mm
 - 4x 20x2mm Steel Pin
@@ -21,6 +21,9 @@ This part covers the assembly of the Rotary Button with Push Pull function.
 ## Electronic Shematic
 [Backlight Shematic](./Electronics/Backlight_shematic.png)  
 [Example Shematic](./Electronics/Example-shematic.png)
+
+## 3D Printing
+Print everything with 10% infill except the transparent part. Print the transparent part with 0% infill.
 
 ## Assembly
 It is recommended to assemble 1 knob first as a test. And then learn from your mistakes.
