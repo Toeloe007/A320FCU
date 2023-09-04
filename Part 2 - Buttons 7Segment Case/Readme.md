@@ -39,32 +39,32 @@ The segments of the displays that belong on a Max7219 must all be connected toge
 Wiring the rest is pretty simple. Each button needs GND and is connected to the Arduino at the switch wire. Each LED needs a series resistor. I recommend to try each light color with different resistors to get the desired brightness. Please note that 20mA per output should not be exceeded.
 
 Pin Arduino | Description 
-38	        | AP1 Btn
-39	        | Ap1 LED
-40	        | AP2 Btn
-41	        | AP2 LED
-42	        | LOC BTN
-43	        | LOC LED
-44	        | ATHR BTN
-45	        | ATHR LED
-46	        | EXPED BTN
-47	        | EXPED LED
-48	        | 1000 Btn
-49	        | 1000 LED
-50	        | APP BTN
-51	        | APP LED
-52	        | SPD Mach Btn
-53	        | HDG TRK Btn
-2	        | MET ALT Btn
-3	        | SPD LED
-4	        | MACH LED
-5	        | HDG LED
-6	        | TRK LED
-7	        | VS LED
-8	        | FPA LED
-9	        | SPD Managed LED
-10	        | HDG Managed LED
-11	        | Alt Managed LED
+38	        | AP1 Btn  
+39	        | Ap1 LED  
+40	        | AP2 Btn  
+41	        | AP2 LED  
+42	        | LOC BTN  
+43	        | LOC LED  
+44	        | ATHR BTN  
+45	        | ATHR LED  
+46	        | EXPED BTN  
+47	        | EXPED LED  
+48	        | 1000 Btn  
+49	        | 1000 LED  
+50	        | APP BTN  
+51	        | APP LED  
+52	        | SPD Mach Btn  
+53	        | HDG TRK Btn  
+2	        | MET ALT Btn  
+3	        | SPD LED  
+4	        | MACH LED  
+5	        | HDG LED  
+6	        | TRK LED  
+7	        | VS LED  
+8	        | FPA LED  
+9	        | SPD Managed LED  
+10	        | HDG Managed LED  
+11	        | Alt Managed LED  
 
 ## Assembly
 In the 3D files directory there are different Pins to glue the components together. 
