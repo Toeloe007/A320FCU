@@ -16,22 +16,22 @@
   <Button Name="Pull HDG" Pin="37" />
   <Button Name="AP1" Pin="38" />
   <Button Name="AP2" Pin="40" />
-  <Button Name="LOC" Pin="42" />
-  <Button Name="ATHR" Pin="21" />
+  <Button Name="LOC" Pin="50" />
+  <Button Name="ATHR" Pin="44" />
   <Button Name="EXPED" Pin="46" />
   <Button Name="1000" Pin="48" />
-  <Button Name="APPR" Pin="50" />
+  <Button Name="APPR" Pin="42" />
   <Output Name="LED AP1" Pin="39" />
   <Output Name="LED AP2" Pin="41" />
-  <Output Name="LED LOC" Pin="43" />
-  <Output Name="LED ATHR" Pin="59" />
+  <Output Name="LED LOC" Pin="51" />
+  <Output Name="LED ATHR" Pin="45" />
   <Output Name="LED EXPED" Pin="47" />
   <Output Name="LED 1000" Pin="49" />
-  <Output Name="LED APPR" Pin="51" />
+  <Output Name="LED APPR" Pin="43" />
   <LedModule Name="LedModule" DinPin="12" ClsPin="13" ClkPin="14" Brightness="15" NumModules="2" />
-  <Button Name="SPD MACH" Pin="52" />
+  <Button Name="SPD MACH" Pin="2" />
   <Button Name="HDG TRK" Pin="53" />
-  <Button Name="METRIC ALT" Pin="2" />
+  <Button Name="METRIC ALT" Pin="52" />
   <Output Name="SPD LED" Pin="3" />
   <Output Name="MACH LED" Pin="4" />
   <Output Name="HDG LED" Pin="5" />
