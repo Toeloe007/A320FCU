@@ -1,4 +1,4 @@
-# Rotary Buttons with Push Pull Function
+# Part 1 - Rotary Buttons with Push Pull Function
 This part covers the assembly of the Rotary Button with Push Pull function.
 
 ## Parts needed
@@ -69,7 +69,7 @@ Pin Arduino | Description
 37	        | Pull HDG  
 
 ### Backlight
-Since I don't want to load my USB ports unnecessarily, I decided to power the backlight and the 7 segment displays via an external power supply.
+Since I don't want to load my USB ports unnecessarily, I decided to power the backlight via an external power supply.
 The GND pin of the power module has to be connected to the GND pin of the Arduino.
 
 The cathodes (-) of the LEDs can all be connected together and then connected to GND.
