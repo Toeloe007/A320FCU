@@ -1,7 +1,7 @@
 # A320FCU
 Homebuilt FCU for the Fenix A320 (MSFS2020) 50-60€
 
-![Preview](./Part%202%20-%20Buttons%207Segment%20Case/Images/final.jpeg)
+![Preview](./Part%202%20-%20Buttons%207Segment%20Case/Images/final2.jpeg)
 
 Since English is not my native language, I apologize in advance for any spelling and grammatical errors.
 
